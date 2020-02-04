@@ -10,6 +10,6 @@ export class VideosComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    
   }
+
 }
