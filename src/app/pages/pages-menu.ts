@@ -26,7 +26,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
   {
     title: 'Videos/Movies',
     icon: 'film-outline',
-    link: '/pages/iot-dashboard',
+    link: '/pages/videos',
   },
   /*
   {
