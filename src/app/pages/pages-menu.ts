@@ -15,9 +15,9 @@ export const MENU_ITEMS: NbMenuItem[] = [
   },
   */
   {
-    title: 'Dashboard',
+    title: 'Homepage',
     icon: 'home-outline',
-    link: '/pages/iot-dashboard',
+    link: '/pages/homepage',
   },
   {
     title: 'FILES',
