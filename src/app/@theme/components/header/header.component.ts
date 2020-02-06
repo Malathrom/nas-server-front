@@ -53,7 +53,7 @@ export class HeaderComponent implements OnInit, OnDestroy {
     this.themeService.changeTheme('dark');
     this.userService.getUsers()
       .pipe(takeUntil(this.destroy$))
-      .subscribe((users: any) => this.user = users.sam);
+      .subscribe((users: any) => this.user = users.unknown);
 
     const { xl } = this.breakpointService.getBreakpointsMap();
     this.themeService.onMediaQueryChange()

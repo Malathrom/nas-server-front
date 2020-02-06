@@ -1,0 +1,10 @@
+<p>
+  <nb-card *ngFor="let item of audioFiles">
+    <nb-card-header>{{item.title}}</nb-card-header>
+    <nb-card-body>
+      <audio controls loop>
+        <source src={{item.url}}>
+      </audio>
+    </nb-card-body>
+  </nb-card>
+</p>

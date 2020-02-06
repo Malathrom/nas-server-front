@@ -1,0 +1,10 @@
+<p>
+  <nb-card *ngFor="let item of videoFiles">
+    <nb-card-header>{{item.title}}</nb-card-header>
+    <nb-card-body>
+      <video controls>
+        <source src={{item.url}}>
+      </video>
+    </nb-card-body>
+  </nb-card>
+</p>

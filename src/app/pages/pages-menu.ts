@@ -15,18 +15,23 @@ export const MENU_ITEMS: NbMenuItem[] = [
   },
   */
   {
-    title: 'Dashboard',
+    title: 'Homepage',
     icon: 'home-outline',
-    link: '/pages/iot-dashboard',
+    link: '/pages/homepage',
   },
   {
     title: 'FILES',
     group: true,
   },
   {
-    title: 'Videos/Movies',
+    title: 'Videos',
     icon: 'film-outline',
-    link: '/pages/iot-dashboard',
+    link: '/pages/videos',
+  },
+  {
+    title: 'Audio',
+    icon: 'music-outline',
+    link: '/pages/audio',
   },
   /*
   {
