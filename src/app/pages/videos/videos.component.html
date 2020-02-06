@@ -1,9 +1,9 @@
 <p>
-  <nb-card>
-    <nb-card-header>♂ EZ4Van ♂</nb-card-header>
+  <nb-card *ngFor="let item of videoFiles">
+    <nb-card-header>{{item.title}}</nb-card-header>
     <nb-card-body>
-      <video controls autoplay>
-        <source src="/assets/videos/vivon.mp4" type="video/mp4">
+      <video controls>
+        <source src={{item.url}}>
       </video>
     </nb-card-body>
   </nb-card>

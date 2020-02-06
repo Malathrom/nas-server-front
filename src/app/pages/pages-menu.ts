@@ -24,9 +24,14 @@ export const MENU_ITEMS: NbMenuItem[] = [
     group: true,
   },
   {
-    title: 'Videos/Movies',
+    title: 'Videos',
     icon: 'film-outline',
     link: '/pages/videos',
+  },
+  {
+    title: 'Audio',
+    icon: 'music-outline',
+    link: '/pages/audio',
   },
   /*
   {

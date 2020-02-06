@@ -19,6 +19,7 @@ import { PagesRoutingModule } from './pages-routing.module';
 import { MiscellaneousModule } from './miscellaneous/miscellaneous.module';
 import { HomepageComponent } from './homepage/homepage.component';
 import { VideosComponent } from './videos/videos.component';
+import { AudioComponent } from './audio/audio.component';
 
 @NgModule({
   imports: [
@@ -42,6 +43,7 @@ import { VideosComponent } from './videos/videos.component';
     PagesComponent,
     HomepageComponent,
     VideosComponent,
+    AudioComponent,
   ],
 })
 export class PagesModule {

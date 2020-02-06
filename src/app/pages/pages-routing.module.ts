@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { HomepageComponent } from './homepage/homepage.component';
 import { VideosComponent } from './videos/videos.component';
+import { AudioComponent } from './audio/audio.component';
 import { PagesComponent } from './pages.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { ECommerceComponent } from './e-commerce/e-commerce.component';
@@ -27,6 +28,10 @@ const routes: Routes = [{
     {
       path: 'videos',
       component: VideosComponent,
+    },
+    {
+      path: 'audio',
+      component: AudioComponent,
     },
     {
       path: 'layout',
